@@ -1,0 +1,78 @@
+.register{
+    height: 100vh;
+    background-color: rgb(193, 190, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+        .card{
+            width: 50%;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row-reverse;
+            background-color: white;
+            min-height: 400px;
+            overflow: hidden;
+            
+         .left{
+            color: white;
+            flex: 1;
+            background: url("https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTN8fHNvY2lhbCUyMG1lZGlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60") 
+            center;
+            background-size: cover;
+            padding: 40px;
+           display: flex;
+           flex-direction: column;
+           gap: 20px;
+    
+            h1{
+                font-size: 60px;
+                line-height: 100px;
+            }
+           
+            span{
+                font-size: 14px;
+            }
+            button{
+                width: 50%;
+                padding: 10px;
+                background-color: white;
+                color: black;
+                border: none;
+                font-weight: bold;
+                cursor: pointer;
+            }
+         }  
+         .right{
+            flex: 1;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+            h1{
+                color: #555;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                input{
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px 10px;
+                }
+                button{
+                    width: 50%;
+                    padding: 10px;
+                    background-color:rgb(220, 87, 220);
+                    color: white;
+                    border: none;
+                    font-weight: bold;
+                    cursor: pointer;
+                    
+                }
+            }
+         } 
+        }
+    }
